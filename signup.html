@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login Page</title>
-    <link rel="stylesheet" href="../css/login.css" />
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="./signup.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Lexend Deca"
       rel="stylesheet"
@@ -20,15 +20,24 @@
       <div class="form-container">
         <form class="form">
           <div>
-            <h2>Log in</h2>
+            <h2>Sign up</h2>
             <div>
               <a href="#">
-                <img src="../images/g.svg" alt="" />
-                <span>Log in with Google</span>
+                <img src="../assets/g.svg" alt="" />
+                <span>Sign up with Google</span>
               </a>
             </div>
           </div>
           <div class="break"></div>
+          <div>
+            <label for="name">Name</label>
+            <input
+              type="name"
+              name="name"
+              id="name"
+              placeholder="Enter Your Full Name"
+            />
+          </div>
           <div>
             <label for="email">Email</label>
             <input
@@ -44,20 +53,26 @@
               type="password"
               name="password"
               id="password"
-              placeholder="Enter Your Password"
+              placeholder="At Least 8 Characters"
             />
           </div>
-          <div><button type="submit">Log in</button></div>
+          <div class="checkbox-container">
+            <span
+              ><input type="checkbox" name="terms" id="terms" />I agree with
+              <a href="#">Terms</a> and <a href="#">Privacy</a></span
+            >
+          </div>
+          <div><button type="submit">Sign up</button></div>
           <div class="break"></div>
           <div>
-            <span>Don't have an account?</span>
-            <a href="./signup.html">Sign up</a>
+            <span>Already have an account?</span>
+            <a href="./login.html">Log in</a>
           </div>
         </form>
         <div>
-          <img src="../images/f.svg" alt="image" />
-          <img src="../images/isvg.svg" alt="image" />
-          <img src="../images/in.svg" alt="image" />
+          <img src="../assets/f.svg" alt="" />
+          <img src="../assets/isvg.svg" alt="" />
+          <img src="../assets/in.svg" alt="" />
         </div>
       </div>
       <div class="text-container">
