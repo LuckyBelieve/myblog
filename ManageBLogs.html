@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Create Blog</title>
-    <link rel="stylesheet" href="./CreateBlog.css" />
+    <title>Manage Blog</title>
+    <link rel="stylesheet" href="/ManageBLog.css" />
   </head>
   <body>
     <nav>
@@ -49,25 +49,33 @@
       </div>
     </nav>
     <main>
-      <div class="CreatePost">
-        <div class="createInputs">
-          <h1 class="heading">CREATE BLOG POST</h1>
-          <div class="input">
-            <label for="BlogTitle">Blog title</label>
-            <input type="text" class="blogTitle" />
+      <div class="mainContainer">
+        <h1 class="heading">Manage Blogs</h1>
+        <div class="ManageBlog">
+          <div class="arrowLeft">
+            <img src="./assets/right.svg" alt="left" />
           </div>
-          <div class="input">
-            <h2>Upload Image: <span>select file</span></h2>
-            <!-- <input class="fileInput" type="file" class="file" placeholder="select file" /> -->
+          <div class="Blog">
+            <div class="blogImage">
+              <img src="./assets/article2.png" alt="blog" />
+            </div>
+            <h1 class="blogTitle">Marketing</h1>
+            <p class="desc">Your business with a variety of digital</p>
+            <div class="actions">
+              <div class="edit">
+                <img src="./assets/edit.svg" alt="edit" />
+              </div>
+              <div class="delete">
+                <img src="./assets/delete.svg" alt="delete" />
+              </div>
+            </div>
           </div>
-          <div class="input bodyInput">
-            <label for="body">Body</label>
-            <textarea name="body"></textarea>
+          <div class="arrowRight">
+            <img src="./assets/left.svg" alt="right" />
           </div>
-          <button class="button">Update Blog</button>
         </div>
         <div class="submission">
-          <div class="navigation">
+          <div class="">
             <h2 class="userTitle">Logged in as:</h2>
             <p class="email">manzirurangwa@gmail.com</p>
             <div class="navButtons">
@@ -80,6 +88,6 @@
         </div>
       </div>
     </main>
-    <script src="./createBlog.js"></script>
+    <script src="/createBlog.js"></script>
   </body>
 </html>

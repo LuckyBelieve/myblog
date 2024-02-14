@@ -100,12 +100,8 @@ main {
   text-transform: uppercase;
 }
 
-.email {
-  font-size: 14px;
-  font-family: var(--secondary-font-family);
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
+
+
 .navButtons {
   display: flex;
   flex-direction: column;
