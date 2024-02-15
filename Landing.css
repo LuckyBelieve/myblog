@@ -47,6 +47,7 @@ nav {
   padding: 20px;
   width: 100%;
   background: inherit;
+  z-index: 50;
 }
 .navWrapper {
   position: relative;
@@ -236,6 +237,42 @@ a:active {
   margin: 40px 0px;
 }
 
+.imageHover {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.hoverContent {
+  padding: 5px;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(250, 204, 21, 0.7);
+  transition: top 0.5s;
+  padding: 10px;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageHover:hover .hoverContent {
+  top: 0;
+  opacity: 1;
+}
+
+.hoverDiv h1 {
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.hoverDiv p {
+  color: var(--secondary-background);
+  margin: 0px;
+}
 /* contact section */
 .contactSection {
   font-family: var(--font-family);
