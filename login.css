@@ -210,7 +210,10 @@ form>div:nth-child(7)>a:hover {
     padding: 0 10%;
 }
 
-
+.link{
+    color: white;
+    text-decoration: none;
+}
 @media screen and (max-width: 520px) {
     .form {
         width: 60%;

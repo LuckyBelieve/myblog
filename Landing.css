@@ -31,6 +31,10 @@ body {
   scroll-behavior: smooth;
 }
 
+.link {
+  color: #252525;
+  text-decoration: none;
+}
 .mainWrapper {
   background: var(--primary-background);
 }
